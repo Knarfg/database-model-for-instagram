@@ -47,7 +47,7 @@ class MediaType(enum.Enum):
     album = 1
     photo = 2
     story = 3
-    video = 3
+    video = 4
 
 class Media(Base):
     __tablename__ = 'media'
